@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body class="gradient">
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
   <title>Seerose</title>
 </head>
 <h1>Seerose</h1>
 <h2>Ein Wasserpflanzen Quiz</h2>
 <select onchange="$('#imageToSwap').attr('src', this.options[this.selectedIndex].value);">
-    <option value="pic/see.jpg">See</option>
+    <!--<option value="pic/see.jpg">See</option>-->
     <option value="pic/erle.jpg">Erle</option>
     <option value="pic/seggen.jpg">Seggen</option>
     <option value="pic/blutweiderich.jpg">Blutweiderich</option>
@@ -33,7 +34,9 @@
 
 <br><br>
 
-<img id="imageToSwap" class="profile" src="pic/see.jpg">
-
+<img id="imageToSwap" class="profile" src="pic/erle.jpg">
+<footer>
+  <p>created by: starpok</p>
+</footer>
 </body>
 </html>

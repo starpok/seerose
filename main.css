@@ -1,0 +1,41 @@
+select{
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  border-color: green;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.gradient {
+
+  /* can be treated like a fallback */
+  background-color: green;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(blue, green);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+/*
+  background: blue;
+  background: linear-gradient(green, blue);
+*/
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+body{
+  color: white;
+}
